@@ -26,7 +26,7 @@ let
 
 let
   stimulator =
-  Neuron/stimulator {
+  Stimulator {
     envelope: {
       period_sec: 0.010,
       onset_sec: 0.0001,
@@ -50,7 +50,7 @@ let
         ]
        }
   in
-Neuron/scene {
+Scene {
   neurons: [
      mkNeuron false,
      mkNeuron true
